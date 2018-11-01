@@ -81,3 +81,28 @@ html {
     transform: rotate(10deg);
     margin-left: 10px;
 }
+
+.legs.right .leg:nth-child(1) {
+    transform: rotate(-10deg);
+    margin-left: -10px;
+}
+
+.legs.left .leg:nth-child(2) {
+    transform: rotate(-20deg);
+    margin-left: 20px;
+}
+
+.legs.right .leg:nth-child(2) {
+    transform: rotate(20deg);
+    margin-left: -20px;
+}
+
+.legs.left .leg:nth-child(3) {
+    transform: rotate(-50deg);
+    margin-left: 30px;
+}
+
+.legs.right .leg:nth-child(3) {
+    transform: rotate(50deg);
+    margin-left: -30px;
+}
