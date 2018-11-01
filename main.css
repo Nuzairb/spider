@@ -42,3 +42,20 @@ html {
 .eye.left {
     left: 15px;
 }
+
+.eye::after {
+    background: #000;
+    width: 7px;
+    height: 7px;
+    content: '';
+    display: block;
+    margin: 55%;
+    border-radius: 50%;
+    animation: look 8s infinite;
+}
+
+.legs {
+    position: absolute;
+    bottom: -10%;
+    z-index: -1;
+}
